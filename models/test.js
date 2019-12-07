@@ -1,0 +1,7 @@
+// Getting ready for models
+module.exports = function(sequelize, DataTypes){
+    return sequelize.define('test', {
+        testdata: DataTypes.STRING,
+        firstname: DataTypes.STRING
+    });
+};
